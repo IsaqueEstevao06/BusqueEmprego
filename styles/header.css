@@ -1,0 +1,50 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.2em 4em;
+}
+.cabecalho__logotitulo {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.cabecalho__titulo {
+    font-family: var(--fonte-);
+    font-weight: 500;
+    font-size: 18px;
+    color: #3A404E;
+}
+.menu {
+    display: flex;
+    gap: 2em;
+}
+.menu__opções {
+    font-family: var(--fonte-);
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #667085;
+}
+.menu__login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--fonte-);
+    gap: 2em;
+    margin-left: 20%;
+}
+.menu__entrar {
+    text-decoration: none;
+    font-size: 16px;
+    color: #667085;
+}
+.menu__cadastrar {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.823);
+    background: #8E2424;
+    padding: 1em 1.5em;
+    border-radius: 8px;
+}
+

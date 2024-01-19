@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 20em;
+    gap: 2.5em;
+}
+.container__informação {
+    font-size: 16px;
+    font-weight: 600;
+    color: #8E2424;
+    margin-bottom: -0.7em;
+}
+.container__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    color: #101828;
+}
+.container__texto {
+    font-size: 20px;
+    color: #667085;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*CONTAINER SECUNDARIO*/
+
+.vagas_abertas {
+    background: #fff5f5;
+    padding: 0.5em 1em;
+    border-radius: 16px;
+}
+.titulo_secundario {
+    font-size: 36px;
+}
+.container__imagem {
+    padding: 1em;
+}
+.vagas {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.lista__vagas {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    width: 768px;
+    padding: 24px;
+    line-height: 50px;
+}
+.vagas__titulo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #101828;
+}
+.cargos {
+    font-size: 18px;
+    font-weight: 600;
+    color: #101828;
+}
+.vaga__detalhes {
+    display: flex;
+    justify-content: left;
+    color: #667085;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*CONTAINER COLABORADORES*/
+
+.colaboradores {
+    background-color: #fff5f5;
+    margin: 1em 7em 6em 7em;
+    gap: 2em;
+}
+.texto__colaboradores {
+    text-align: center;
+    width: 1088px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #101828;
+    margin-top: 0.5em;
+}
+.colaboradora {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -0.5em;
+}
+.cargo__colaboradora {
+    color: #667085;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1328px) {
+    .texto__colaboradores {
+        width: 900px;
+    }
+}
